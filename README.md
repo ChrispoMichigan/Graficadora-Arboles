@@ -12,7 +12,7 @@ Este proyecto implementa un árbol binario de búsqueda (BST, por sus siglas en 
 
 ## Tecnologías utilizadas
 
-- ![Python](https://img.shields.io/badge/Python-3.12.14-blue?logo=python&logoColor=white)  
+- ![Python](https://img.shields.io/badge/Python-3.12.4-blue?logo=python&logoColor=white)  
   Utilizado como lenguaje principal para implementar el árbol binario de búsqueda.
 - **NetworkX**: Para la creación y manipulación de grafos.
 - **Matplotlib**: Para la visualización gráfica.
@@ -26,6 +26,51 @@ Para instalar las dependencias necesarias, asegúrate de tener **Python** instal
 ```bash
 pip install networkx matplotlib
 ```
+# ¿Cómo usar?
+En la parte final del archivo **op.py** en el **main()** 
+```python
+def main():
+    """
+    Función principal que ejecuta el programa.
+    """
+    print("\n=== VISUALIZACIÓN DE ÁRBOL BINARIO DE BÚSQUEDA CON CLASE NODO ===")
+    
+    # Definimos una lista de ejemplo
+    elementos_ejemplo = []
+    
+    print("\nUtilizando lista de ejemplo:", elementos_ejemplo)
+    
+    # Construimos el árbol
+    raiz = construir_arbol(elementos_ejemplo)
+    
+    # Mostramos el proceso de construcción
+    display_tree_construction_process(elementos_ejemplo, raiz)
+    
+    # Visualizamos el árbol
+    visualizar_bst(raiz, elementos_ejemplo)
+
+if __name__ == "__main__":
+    main()
+```
+Solo debemos cambiar la lista de elementos tanto por números como carácteres
+Ejemplo con letras:
+```python
+    elementos_ejemplo = ['A','G','T','G','S','F']
+```
+Salida usando letras:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/eb1e578d-31bc-4915-b3d0-10d28914c64a" alt="logo" width="500" />
+</p>
+
+Ejemplo con números:
+```python
+    elementos_ejemplo = [10, 1, 7, 5, 15, 25, 12, 32, 45, 23]
+```
+Salida usando números:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3cc15082-1d7d-4f9e-b3e9-db69fc7c6fe7" alt="logo" width="500" />
+</p>
+
 # Descripción del código
 ## Clases y funciones principales
 <h3 align="center">Clase Nodo: Representa cada nodo del árbol binario de búsqueda. Contiene:</h3>
