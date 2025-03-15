@@ -52,7 +52,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-Solo debemos cambiar la lista de elementos tanto por números como carácteres
+Solo debemos cambiar la lista de elementos tanto por números como carácteres<br>
 Ejemplo con letras:
 ```python
     elementos_ejemplo = ['A','G','T','G','S','F']
@@ -75,23 +75,23 @@ Salida usando números:
 ## Clases y funciones principales
 <h3 align="center">Clase Nodo: Representa cada nodo del árbol binario de búsqueda. Contiene:</h3>
 
-  valor: El valor almacenado en el nodo.
-  izquierda: Referencia al hijo izquierdo.
-  derecha: Referencia al hijo derecho.
-  Método insertar(valor): Inserta un valor en el árbol siguiendo las reglas del árbol binario de búsqueda (menores a la izquierda, mayores a la derecha).
+  **valor**: El valor almacenado en el nodo.<br>
+  **izquierda**: Referencia al hijo izquierdo.<br>
+  **derecha**: Referencia al hijo derecho.<br>
+  **Método insertar(valor)**: Inserta un valor en el árbol siguiendo las reglas del árbol binario de búsqueda (menores a la izquierda, mayores a la derecha).<br>
 
 <h3 align="center">visualizar_bst(raiz, elementos): Visualiza gráficamente el árbol usando NetworkX y Matplotlib.</h3>
 
-  Se utiliza un recorrido por niveles (BFS) para construir las posiciones de los nodos y aristas.
-  Añade etiquetas, flechas y un título para una mejor visualización.
+  Se utiliza un recorrido por niveles (BFS) para construir las posiciones de los nodos y aristas.<br>
+  Añade etiquetas, flechas y un título para una mejor visualización.<br>
 
 <h3 align="center">display_tree_construction_process(elementos, raiz): </h3>
-  Muestra paso a paso el proceso de inserción de cada elemento en el árbol.
+  Muestra paso a paso el proceso de inserción de cada elemento en el árbol.<br>
 
 <h3 align="center">construir_arbol(elementos): </h3>
-  Construye el árbol a partir de una lista de elementos.
+  Construye el árbol a partir de una lista de elementos.<br>
 
 <h3 align="center">Función main(): </h3>
-  Ejemplo de uso del programa, creando un árbol binario de búsqueda con una lista predeterminada.
-  Muestra el proceso de construcción del árbol.
-  Visualiza gráficamente el árbol construido.
+  Ejemplo de uso del programa, creando un árbol binario de búsqueda con una lista predeterminada.<br>
+  Muestra el proceso de construcción del árbol.<br>
+  Visualiza gráficamente el árbol construido.<br>
