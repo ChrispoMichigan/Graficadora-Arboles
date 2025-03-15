@@ -21,7 +21,7 @@ Este proyecto implementa un árbol binario de búsqueda (BST, por sus siglas en 
 
 ## Instalación de librerías
 
-Para instalar las dependencias necesarias, asegúrate de tener **Python 3.x** instalado. Luego, instala las siguientes librerías utilizando `pip`:
+Para instalar las dependencias necesarias, asegúrate de tener **Python** instalado. Luego, instala las siguientes librerías utilizando `pip`:
 
 ```bash
 pip install networkx matplotlib
