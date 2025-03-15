@@ -182,7 +182,7 @@ def main():
     print("\n=== VISUALIZACIÓN DE ÁRBOL BINARIO DE BÚSQUEDA CON CLASE NODO ===")
     
     # Definimos una lista de ejemplo
-    elementos_ejemplo = [1, 5, 6, 10, 11, 2, 4]
+    elementos_ejemplo = [4, 6, 2, 10, 13]
     
     print("\nUtilizando lista de ejemplo:", elementos_ejemplo)
     
